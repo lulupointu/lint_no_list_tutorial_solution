@@ -1,0 +1,26 @@
+name: app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  custom_lint: ^0.0.9+1
+  lint_no_list:
+    path: ../lint_no_list
+
+
+flutter:
+  uses-material-design: true
