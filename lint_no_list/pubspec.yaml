@@ -6,6 +6,7 @@ version: 1.0.0
 environment:
   sdk: '>=2.16.0 <3.0.0'
 
-dev_dependencies:
+dependencies:
   analyzer: ^4.2.0
   custom_lint_builder: ^0.0.9+1
+  source_gen: ^1.2.2
